@@ -5,7 +5,7 @@ public class ReLoad {
         int j = 2;
         int k = max(i, j);
         System.out.println( i + " 和 " + j + " 比较，最大值是：" + k);
-        System.out.println( max(4.2, 4.9));
+        System.out.println(max(4.2, 4.9));
     }
 
     /** 返回两个整数变量较大的值 */
@@ -20,6 +20,8 @@ public class ReLoad {
     }
 
     public static double max(double num1, double num2) {
+        System.out.println("double");
+
         if (num1 > num2)
             return num1;
         else
