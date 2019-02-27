@@ -7,6 +7,16 @@
     <groupId>1</groupId>
     <artifactId>1</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 
+    <dependencyManagement>
+    <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>5.1.4.RELEASE</version>
+    </dependency>
+    </dependencies>
+    </dependencyManagement>
 
 </project>
